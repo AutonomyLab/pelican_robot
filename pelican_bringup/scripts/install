@@ -6,6 +6,8 @@ import os
 j = robot_upstart.Job(name="pelican-core", interface="wlan0", workspace_setup="/home/autolab/pelican_ws/devel/setup.bash")
 
 # Stuff to launch on system startup.
-j.add(package="pelican_base", glob="launch/*")
+j.add(package="pelican_base", filename="launch/fcu.launch")
+j.add(package="pelican_base", filename="launch/gps.launch")
+
 
 j.install()
