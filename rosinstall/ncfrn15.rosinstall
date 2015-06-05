@@ -1,0 +1,18 @@
+- git: {local-name: asctec_mav_framework, uri: 'https://github.com/AutonomyLab/asctec_mav_framework.git',
+    version: master}
+- git: {local-name: ethzasl_msf, uri: 'https://github.com/ethz-asl/ethzasl_msf.git',
+    version: master}
+- git: {local-name: glog_catkin, uri: 'https://github.com/ethz-asl/glog_catkin.git',
+    version: master}
+- git: {local-name: catkin_simple, uri: 'https://github.com/catkin/catkin_simple.git',
+    version: master}
+- git: {local-name: pelican_hri_exp, uri: 'https://bitbucket.org/AutonomyLab/pelican_hri_exp.git',
+    version: master}
+- git: {local-name: pelican_hri, uri: 'https://bitbucket.org/AutonomyLab/pelican_hri.git',
+    version: master}
+- git: {local-name: pelican_ctrl, uri: 'https://github.com/asadat/pelican_ctrl.git',
+    version: master}
+- git: {local-name: obzerver_ros, uri: 'https://bitbucket.org/AutonomyLab/obzerver_ros.git',
+    version: master}
+- git: {local-name: pelican_robot, uri: 'https://github.com/AutonomyLab/pelican_robot.git',
+    version: master}
