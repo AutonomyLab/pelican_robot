@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find asctec_hl_interface)/launch/fcu.launch">
+    	<arg name="fcu_param_file" value="$(find pelican_robot)/config/fcu_parameters.yaml" />
+    	<arg name="ssdk_param_file" value="$(find pelican_robot)/config/ssdk_parameters.yaml" />
+    </include>
+</launch>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<launch>
+  <node pkg="nodelet" type="nodelet" name="nodelet_manager" args="manager" output="screen" />
+  
+  <node pkg="nodelet" type="nodelet" name="ueye_cam_nodelet"
+        args="load ueye_cam/ueye_cam_nodelet nodelet_manager">
+        <param name="camera_parameters_file" value="$(find dummy)/config/ueye.ini" />
+  	<rosparam command="load" file="$(find dummy)/config/ueye.yaml" />
+  </node>
+</launch>

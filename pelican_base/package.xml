@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>pelican_base</name>
+  <version>0.1.0</version>
+  <description>Configurations and launch files for AutonomyLab's Pelican</description>
+
+  <author email="mmonajje@sfu.ca">Mani Monajjemi</author>
+  <maintainer email="mmonajje@sfu.ca">Mani Monajjemi</maintainer>
+  <license>BSD</license>
+
+  <url type="bugtracker">http://github.com/AutonomyLab/pelican_robot</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>asctec_hl_interface</run_depend>
+
+  <export>
+  </export>
+</package>

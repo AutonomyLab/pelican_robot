@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>pelican_bringup</name>
+  <version>0.1.0</version>
+  <description>Bringup script and configs for AutonomyLab's Pelican</description>
+
+  <author email="mmonajje@sfu.ca">Mani Monajjemi</author>
+
+  <maintainer email="mmonajje@sfu.ca">Mani Monajjemi</maintainer>
+
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/AutonomyLab/pelican_robot</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roslaunch</build_depend>
+
+  <run_depend>robot_upstart</run_depend>
+  <run_depend>pelican_base</run_depend>
+  <run_depend>asctec_mav_framework</run_depend>
+
+  <export>
+  </export>
+</package>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+	<node name="set_gps_ref" pkg="asctec_hl_gps" type="set_gps_reference" output="screen" clear_params="false">
+            <remap from="gps" to="fcu/gps" />
+        </node>
+        <node name="gps_conv" pkg="asctec_hl_gps" type="gps_conversion" output="screen" clear_params="false">
+            <param name="use_pressure_height" value="true" />
+        </node>
+</launch>
+
