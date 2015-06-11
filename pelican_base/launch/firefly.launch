@@ -7,7 +7,7 @@
   <!-- camera driver nodelet -->
   <node pkg="nodelet" type="nodelet" name="camera1394_nodelet"
         args="load camera1394/driver camera_nodelet_manager">
-    <rosparam command="load" file="$(find pelican_hri_exp)/config/firefly.yaml" />
+    <rosparam command="load" file="$(find pelican_base)/config/firefly.yaml" />
   </node>
   <!-- Bayer color decoding -->
 <!--

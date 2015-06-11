@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find pelican_base)/launch/fcu.launch" />
+    <include file="$(find pelican_base)/launch/gps.launch" />
+    <include file="$(find pelican_base)/launch/firefly.launch" />
+</launch>
